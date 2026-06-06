@@ -57,4 +57,4 @@ test();
    console.log(city);
 }
 
-//console.log(city); ( not accesse)
+//console.log(city); ( not access)
