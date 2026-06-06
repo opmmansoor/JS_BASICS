@@ -6,9 +6,9 @@ let fruits = ["Apple", "Orange", "Mango", "Grapes"];
 console.log(fruits.slice(0,3));
 
 
-//2.splice()  [  used to: Add elements , Remove elements It changes the original array.]
+//2.splice()  [ used to: Add elements , Remove elements It changes the original array.]
 let fruit = ["Apple", "Orange", "Mango","plum"];
-fruit.splice(1,0,"Grapes","pienapple");
+fruit.splice(0,2,"Grapes","pienapple");
 console.log(fruit);
 
 
@@ -16,13 +16,14 @@ console.log(fruit);
 let fruitss = ["Apple", "Orange", "Mango"];
 console.log(fruitss.toString());
 
+
 //4. at()  [Returns the element at a specific index.]
-let animals = ["dog","cat","cow","rabbit"]
+let animals = ["dog","cat","cow","rabbit"];
 console.log(animals.at(3));
 
 
 //5. join() [Joins all array elements into a string]
-let animal = ["dog","cat","cow","rabbit"]
+let animal = ["dog","cat","cow","rabbit"];
 console.log(animal.join(" - "));
 
 
@@ -34,14 +35,15 @@ console.log(birds);
 
 //7. push() [Adds an element to the end of the array.]
 let pet = ["duck","macaw","parott"]
-bird.push("peacock");
-console.log(bird);
+pet.push("peacock");
+console.log(pet);
 
 
 //8. shift() [Removes the first element from the array.]
 let fruitz = ["Apple", "Orange", "Mango"];
 fruitz.shift();
 console.log(fruitz);
+
 
 //9. unshift() [Adds an element at the beginning of the array ]
 let items = ["Orange", "Mango"];

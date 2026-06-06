@@ -10,12 +10,12 @@ console.log(items.split(","));
 
 //2.slice() [extracts part]
 let text = "happy day"
-console.log(text.slice(1,-2));
+console.log(text.slice(1,-5));
 
 
 //3. substring() [also extracts part of a string]
 let texts = "Java Script";
-console.log(texts.substring(0,6));
+console.log(texts.substring(0,5));
 
 
 
@@ -53,7 +53,7 @@ console.log(call.charAt(3));
 
 //9. replace()  [text replace]
 let master = "how are you";
-console.log(master.replace("how is","fine"));
+console.log(master.replace("how are you","fine"));
 
 
 

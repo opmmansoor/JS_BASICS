@@ -2,7 +2,7 @@
 
 
 //1. indexOf()  [Returns the first position (index) of a specified value]
-let text = "Hello World";
+let text = "Hello World hai World";
 console.log(text.indexOf("World"));
 console.log(text.indexOf("Java"));
 
@@ -13,7 +13,7 @@ console.log(texts.lastIndexOf("is"));
 
 
 //3. search()  [Searches for a value and returns its position.]
-let call = "Happy Day";
+let call = "Hai Happy Day";
 console.log(call.search('Happy'));
 
 
